@@ -1,1 +1,20 @@
-h1 { background-color: blue;}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover { text-decoration: underline;
+}
+
+#nav{
+    float: left;
+    width: 15%;
+    height: 2500px;
+    padding: 5px;
+}
+
+#sidebar{
+    float: right;
+}
+
