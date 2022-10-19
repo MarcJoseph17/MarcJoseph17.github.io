@@ -1,7 +1,7 @@
-a{
-    text-decoration: none
+li{
+    display: inline;
+    list-style: none;
 }
-
 
 #nav1 {
     width: 100%;
@@ -34,8 +34,12 @@ li #nav2{
 li #nav3{
     width: 100%;
     position: absolute;
-    bottom: 150px;
     height: 40px;
     bottom: 150px;
     
+}
+body{
+    height: 250px;
+    width: 100%;
+    position: relative;
 }
