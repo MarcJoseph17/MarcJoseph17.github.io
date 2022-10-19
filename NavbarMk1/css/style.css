@@ -1,0 +1,41 @@
+a{
+    text-decoration: none
+}
+
+
+#nav1 {
+    width: 100%;
+    height: 40%;
+    background-color: lightseagreen;
+}
+
+#nav2 {
+    width: 100%;
+    height: 40%;
+    background-color: blueviolet;
+}
+
+#nav3{
+    width: 100%;
+    height: 40%;
+    background-color: brown;
+}
+Li #nav1{
+    width: 100%;
+    display: inline;
+}
+
+li #nav2{
+    width: 100%;
+    display: inline;
+    position: fixed;
+}
+
+li #nav3{
+    width: 100%;
+    position: absolute;
+    bottom: 150px;
+    height: 40px;
+    bottom: 150px;
+    
+}
