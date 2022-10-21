@@ -44,7 +44,12 @@ a:link {
     border: 2px solid lightskyblue;
     position: absolute;
     opacity: 0;
+    transition-property: all;
+    
 }
 .dropdown:hover .dropdownmenu {
     opacity: 1;
+    transition-duration: 10s;
 }
+
+

@@ -12,16 +12,13 @@
    
 }
 a {
-    text-decoration: none;
+    background-color: ;
+    transition: ;
 }
 li{
     list-style: none;
  }
 
-a:hover{
-    background-color: red;
-    padding: 10px;
-}
 
 ul{
     display: flex;
@@ -30,7 +27,7 @@ ul{
     justify-content: space-evenly;
 }
 
-   #home {
+   #Home {
     margin-right: auto;
  } 
 
@@ -41,3 +38,7 @@ ul{
         flex-direction:column;
     }
 } 
+
+.fa-solid{
+    color: white;
+}
