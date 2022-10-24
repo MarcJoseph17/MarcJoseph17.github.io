@@ -1,5 +1,5 @@
 nav{
-    background-color: lightsalmon;
+    background-color: lightcoral;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-background-color: lightslategray;
+background-color: black;
 padding: 10px;
 border-radius: 5px;
 cursor: pointer;
@@ -41,6 +41,7 @@ a:link {
     flex-direction: column;
     width: 40;
     margin: 10px;
+    background-color: black;
     border: 2px solid lightskyblue;
     position: absolute;
     opacity: 0;
@@ -49,6 +50,29 @@ a:link {
     opacity: 1;
 }
 
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+#underheader {
+    padding-bottom: 100px;
+    padding-inline: 115px;
+    margin-inline: 100px;
+}
+
+img {
+    padding-inline: 118px;
+    margin-inline: 40px;
+    
+}
  /* Media Query  */
 
 @media only screen and (max-width: 768px) { 
