@@ -41,7 +41,7 @@ a:link {
     flex-direction: column;
     width: 40;
     margin: 10px;
-    background-color: black;
+    background-color: whitesmoke;
     border: 2px solid lightskyblue;
     position: absolute;
     opacity: 0;
