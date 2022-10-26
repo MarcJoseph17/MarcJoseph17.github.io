@@ -10,10 +10,10 @@ table, th, td {
     border-style: groove;
     border-bottom-color: bisque;
     border-bottom-width: 5px;
-    box-shadow: rgba(249, 233, 186, 0.594) 0px 0px 0px 3px;
+    box-shadow: rgba(250, 236, 194, 0.594) 0px 0px 0px 3px;
    }
    #headerrow {
-    background-color: bisque;
+    background-color: cornsilk;
 
    }
 
@@ -24,6 +24,9 @@ table, th, td {
    }
 
    #options3 {
-    background-color: lightgreen;
+    background-color: lightblue;
    }
  
+   #options1 {
+    background-color: lightblue;
+   }
