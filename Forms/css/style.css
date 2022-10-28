@@ -1,0 +1,103 @@
+h1 {
+   text-align: center;
+   color: dodgerblue;
+}
+
+#toptag{
+font-size: xx-large;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p {
+ font-size: larger;
+ text-align: center;
+
+
+}
+
+#genderselect {
+    background-color: aquamarine;
+}
+
+#male {
+    text-align: center;
+}
+
+h3{
+ text-align: center;
+
+}
+
+#gendersetup {
+    text-align: center;
+
+}
+
+
+input[type=signup] {
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+input[name] {
+    text-align: left;
+    padding-right: 20px;
+    padding: 3px;
+}
+
+#fn {
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#em {
+    padding: 5px;
+    padding-right: 50px;
+    margin-left: 40px;
+}
+
+#ln {
+    padding: 5px;
+    padding-left: 75px;
+    
+}
+
+#pas {
+    padding: 5px;
+    padding-right: 65px;
+}
+
+
+
+body {
+    
+    text-align: center;
+    font-size: larger;
+    margin-top: 200px;
+    
+}
+fieldset{
+    margin-left: 1230px;
+    border-radius: 20px;
+    border-width: 2px;
+    height: 500px;
+    width: 900px;
+    }
+
+ 
+    input[type=submit] {
+        background-color: gray;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
