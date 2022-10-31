@@ -20,17 +20,17 @@
         <p>It's quick and easy.</p>
         <!-- Ask for First & Last Name -->
      
-      <input type="text" name="firstname" id="fn" placeholder="First Name" required>
+      <input type="text" name="firstname" id="fn" placeholder="First Name" required minlength="3" maxlength="40">
      
-      <input type="text" name="lastname" id="ln" placeholder="Last Name" required>
+      <input type="text" name="lastname" id="ln" placeholder="Last Name" required minlength="6" maxlength="40">
       <br>
 
 
       <!-- Ask for Email & Password -->
      
-      <input type="email" name="email" id="em" placeholder="mobile number or email" required>
+      <input type="text" name="email" id="em" placeholder="mobile number or email" required minlength="6" maxlength="40">
       
-      <input type="text" name="password" id="pas" placeholder="password" required>
+      <input type="text" name="password" id="pas" placeholder="password" required minlength="6" maxlength="40">
       
       <input type="submit" value="Submit">
       <br>
@@ -92,7 +92,7 @@
 
           <br>
           
-          <input type="signup" value="Sign Up" id="signupnow">
+          <input type="submit" value="Sign Up" id="submit">
         
         
 

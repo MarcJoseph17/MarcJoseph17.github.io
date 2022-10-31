@@ -1,0 +1,25 @@
+#hlp {
+    padding: 10px;
+    padding-right: 300px;
+
+}
+
+#nme {
+    padding: 10px;
+    padding-right: 300px;
+}
+
+#em {
+    padding: 10px;
+    padding-right: 300px;
+}
+
+
+
+#textbox:valid {
+    border: 2px solid chartreuse;
+}
+#textbox:invalid {
+    border: 2px solid red;
+}
+

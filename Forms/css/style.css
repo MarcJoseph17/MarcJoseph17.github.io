@@ -36,7 +36,7 @@ h3{
 }
 
 
-input[type=signup] {
+input[type=submit] {
     background-color: green;
     border: none;
     padding: 10px;
@@ -46,10 +46,14 @@ input[type=signup] {
 
 }
 
-input[name] {
+input[type=text]:valid {
     text-align: left;
     padding-right: 20px;
     padding: 3px;
+    border: 2px solid chartreuse;
+}
+input[name]:invalid {
+    border: 2px solid red; 
 }
 
 #fn {
