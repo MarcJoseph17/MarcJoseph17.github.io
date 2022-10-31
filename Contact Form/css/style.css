@@ -1,25 +1,58 @@
-#hlp {
-    padding: 10px;
-    padding-right: 300px;
 
-}
-
-#nme {
-    padding: 10px;
-    padding-right: 300px;
-}
-
-#em {
-    padding: 10px;
-    padding-right: 300px;
-}
-
-
-
-#textbox:valid {
+textarea:valid {
     border: 2px solid chartreuse;
 }
-#textbox:invalid {
+textarea:invalid {
     border: 2px solid red;
 }
 
+#sendnow {
+    background-color: cornflowerblue;
+    color: azure;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#fullname {
+    padding: 2px;
+    padding-right: 300px;
+}
+label {
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 900;
+}
+#eaddress {
+    padding: 2px;
+    padding-right: 300px;
+}
+
+#hlp {
+    padding: 2px;
+    padding-right: 300px;
+}
+
+select {
+    padding: 2px;
+    padding-right: 218px;
+}
+
+body {
+    background-color: whitesmoke;
+    padding-top: 100px;
+    
+}
+
+fieldset {
+    margin-left: 780px;
+    width: 600px;
+    height: 400px;
+}
+button {
+    color: azure;
+    background-color: deepskyblue;
+}
