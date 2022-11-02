@@ -1,0 +1,21 @@
+.gallery-1 {
+
+    display: grid;
+
+    grid-template-columns:auto auto auto;
+
+}
+.gallery-2 {
+
+    display: grid;
+
+    grid-template-columns:auto auto auto;
+
+}
+.gallery-3 {
+
+    display: grid;
+
+    grid-template-columns:auto auto auto;
+
+}
