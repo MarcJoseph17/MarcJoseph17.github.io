@@ -1,0 +1,23 @@
+.site-hero {
+    height: 80vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: beige;
+    text-indent: 5%;
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: lowercase;
+    font-family: fantasy;
+}
