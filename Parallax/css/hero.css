@@ -33,11 +33,19 @@ nav {
 }
 main {
     margin-top: 10px;
-    ;
+    align-items: center;
+    margin-bottom: 200px;
+    
     
 }
+
 
 .col {
     margin-bottom: 15%;
     
+}
+
+#collapseGrid {
+  im
+
 }
