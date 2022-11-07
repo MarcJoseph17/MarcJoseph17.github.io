@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Forms</title>
+ 
+</head>
+
+<body>
+<h1>Facebook</h1>
+  
+    <form>
+  <fieldset>
+
+      <p id="toptag">Create a new account</p>
+        <p>It's quick and easy.</p>
+        <!-- Ask for First & Last Name -->
+     
+      <input type="text" name="firstname" id="fn" placeholder="First Name" required minlength="3" maxlength="40">
+     
+      <input type="text" name="lastname" id="ln" placeholder="Last Name" required minlength="6" maxlength="40">
+      <br>
+
+
+      <!-- Ask for Email & Password -->
+     
+      <input type="text" name="email" id="em" placeholder="mobile number or email" required minlength="6" maxlength="40">
+      
+      <input type="text" name="password" id="pas" placeholder="password" required minlength="6" maxlength="40">
+      
+      <input type="submit" value="Submit">
+      <br>
+      <br>
+
+      <!-- Ask for birthday -->
+      <label for="age">Birthday <i class="fa-solid fa-circle-question"></i>
+        <br>
+        <select name="age" value="month">
+          <option value="January">January</option>
+          <option value="January">Febuary</option>
+          <option value="January">March</option>
+          <option value="January">April</option>
+          <option value="January">May</option>
+          <option value="January">June</option>
+          <option value="January">July</option>
+          <option value="January">August</option>
+          <option value="January">Septemeber</option>
+          <option value="January">October</option>
+        </select>
+        
+        <select name="age" value="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+       
+
+        <select name="age" value="year">
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+        </select>
+        <br>
+
+        
+        <h3>Gender <i class="fa-solid fa-circle-question"></i></h3>
+        
+        <div id="gendersetup">
+         <label for="M">Male</label> <i class="fa-regular fa-circle"></i></li>
+         <label for="M">Female</label> <i class="fa-regular fa-circle"></i></li>
+         <label for="M">Other</label> <i class="fa-regular fa-circle"></i></li>
+        
+        
+
+          <br>
+          
+          <input type="submit" value="Sign Up" id="submit">
+        
+        
+
+        
+        
+        
+      
+
+    
+      </form>
+    </fieldset>
+
+</body>
+</html>
