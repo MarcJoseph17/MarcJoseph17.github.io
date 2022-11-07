@@ -147,7 +147,7 @@ main {
   border-bottom: 1px solid #000;
   margin:0;
   text-align: center;
-  margin-bottom:70px;
+  margin-bottom:90px;
   padding-bottom:25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -155,6 +155,11 @@ main {
 }
 .content-content {
   padding:20px;
+  
+}
+
+label {
+  padding-left: 20px;
 }
 
 
@@ -169,23 +174,30 @@ footer {
   padding:2px;
   box-sizing: border-box;
   display:flex;
+  
 }
 footer h4, footer h5, footer h6 {
   font-family: 'Montserrat', sans-serif;
   display:flex;
   align-items: center;
-}
+  
+  }
+
 .footer-left {
   flex: 1;
   margin-bottom:50px;
-}
+  }
+
 .footer-right {
   flex:3;
   margin-left:25px;
 }
 footer h4 {
   font-size: 2em;
-}
+  
+    font-weight: bold;
+  }
+
 .footer-right h6 {
   font-size: 1.5em;
 }
@@ -194,13 +206,16 @@ footer h4 {
   margin-top: 10px;
   padding-left: 20px;
 }
-h4 {
-  padding-left: 45px;
- 
 
+
+  
+#footerinfo {
+  font-weight: bold;
 }
 
-
+#footerinfo2 {
+  font-weight: bold;
+}
 
 .footer-feet {
   background-color: #e1a177;
