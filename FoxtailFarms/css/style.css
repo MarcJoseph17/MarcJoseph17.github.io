@@ -127,7 +127,7 @@ main {
 
 .content {
   background-color: #ffffff;
-  border:2px solid #f0ac45;
+  border:2px solid #e1a177;
   padding:15px;
   color:#000;
   font-family: 'Montserrat', sans-serif;
@@ -147,7 +147,7 @@ main {
   border-bottom: 1px solid #000;
   margin:0;
   text-align: center;
-  margin-bottom:25px;
+  margin-bottom:70px;
   padding-bottom:25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -161,12 +161,12 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #bfc3c3;
+  background-color:#e1a177;
   border-top:2px solid #000;
 }
 footer {
   background-color: #e1a177;
-  padding:25px;
+  padding:2px;
   box-sizing: border-box;
   display:flex;
 }
@@ -174,8 +174,6 @@ footer h4, footer h5, footer h6 {
   font-family: 'Montserrat', sans-serif;
   display:flex;
   align-items: center;
- 
-
 }
 .footer-left {
   flex: 1;
@@ -198,8 +196,11 @@ footer h4 {
 }
 h4 {
   padding-left: 45px;
+ 
 
 }
+
+
 
 .footer-feet {
   background-color: #e1a177;
@@ -214,7 +215,7 @@ h4 {
 }
 
 .footer-feet p {
-  margin:0;
+  margin: 0;
 }
 
 /* Special typography */
