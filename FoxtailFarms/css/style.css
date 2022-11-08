@@ -8,7 +8,7 @@
 
 /* typography: */
 body, main, footer, nav, header {
-  font-family: "Open Sans";
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   color:#192e55;
@@ -72,7 +72,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
+  background-color: #ffffff;
   color:
 }
 .nav-contact {
