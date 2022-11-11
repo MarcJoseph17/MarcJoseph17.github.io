@@ -1,216 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootstrapHomepage</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-<!--
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="icon" href="./assets/branding/first_code.svg">
+    <!-- Site tyle, do not edit style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Hero styling, edit this one. -->
+    <link rel="stylesheet" href="./css/hero.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-
-https://templatemo.com/tm-556-catalog-z
-
--->
-</head>
-<body>
-    <!-- Page Loader -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-
-    </div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-film mr-2"></i>
-                MJ's Projects
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-2" href="videos.html">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-3" href="about.html">Marc's Journey</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-4" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
-        <form class="d-flex tm-search-form">
-            <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success tm-search-btn" type="submit">
-                <i class="fas fa-search"></i>
-            </button>
-        </form>
-    </div>
-
-    <div class="container-fluid tm-container-content tm-mt-60">
-        <div class="row mb-4">
-            <h2 class="col-6 tm-text-primary">
-                Latest Projects
-            </h2>
-            <div class="col-6 d-flex justify-content-end align-items-center">
-                <form action="" class="tm-text-primary">
-                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 10
-                </form>
-            </div>
-        </div>
-        <div class="row tm-mb-90 tm-gallery">
-        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/Screen Shot 2022-11-08 at 10.00.20 AM.png" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>FOXTAIL</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Plants</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">14 Oct 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Morning</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">12 Oct 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Pinky</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">10 Oct 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
+    <title>Homepage</title>
+  </head>
+  <body>
+        <header>
+  
+           <img src="assets/images in assets/foxtail_logos.png" alt=""width="300" height="200">
+       </header>
+           <br>
+           <nav>
+          
+            <ul id="mainnav">
             
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Hangers</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">24 Sep 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Perfumes</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">20 Sep 2020</span>
-                    <span>5 views</span>
-                </div>
-            </div>
-           
-            </div>         
-        </div> <!-- row -->
-        <div class="row tm-mb-90">
-            <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
-                <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
-                <div class="tm-paging d-flex">
-                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">2</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">3</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">4</a>
-                </div>
-                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Next Page</a>
-            </div>            
-        </div>
-    </div> <!-- container-fluid, tm-container-content -->
+                <li>
+                  <a href="#">Home&nbsp;</a><i class="fa-sharp fa-solid fa-house"></i></li>
+                <li>
+                  <a href="#">About&nbsp;</a><i class="fa-solid fa-circle-info"></i></li>
+                <li>
+                  <a href="#">Contact</a><i class="fa-solid fa-phone"></i></li>
+                <li class="dropdown"><a href="#">Products</a>
+                  <ul class="dropdownmenu">
+                    <li><a href="#">Dairy</a></li>
+                    <li><a href="#">Oats</a></li>
+                    <li><a href="#">Produce</a></li>
+                  </ul>
+                  </li>
+                  <li>
+                  <a href="#">Our Stores</a></li>
 
-    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
-        <div class="container-fluid tm-container-small">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Marc</h3>
-                    <p>Catalog Homepage for Marc's projects moving foward, please use the social media links to connect with Marc online.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
-                    <ul class="tm-footer-links pl-0">
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Our Company</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
-                        <li class="mb-2"><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
-                        <li class="mb-2"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
-                        <li class="mb-2"><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
-                        <li class="mb-2"><a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a></li>
-                    </ul>
-                    <a href="#" class="tm-text-gray text-right d-block mb-2">Terms of Use</a>
-                    <a href="#" class="tm-text-gray text-right d-block">Privacy Policy</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
-                    Copyright 2020 MarcUrbealis. All rights reserved.
-                </div>
-                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
-                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">Marcurbealis</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </ul>
+          </nav>
     
-    <script src="js/plugins.js"></script>
-    <script>
-        $(window).on("load", function() {
-            $('body').addClass('loaded');
-        });
-    </script>
+   
+    
+    <section>
+      <!-- HERO CSS GOES HERE -->
+      <div class='site-hero'>
+        <div class='hero-text'>
+          <h2>Be Bold. Be You.</h2>
+          <h4>FoxTail Farms is with you!</h4>
+        </div>
+    </section>
+
+    <main>
+
+    <!-- DAY 1 STOP HERE -->
+    <div class="collapseButton">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseGrid" role="button" aria-expanded="false" aria-controls="collapseGrid"></a>
+    </div>
+    <div class="container" class="collapse" id="collapseGrid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <img src="assets/Foxtail_Assets/angelina-litvin-v5GI9rol_WY-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+          <p>Our Mission</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="assets/Foxtail_Assets/anita-jankovic-c7PT4PZMcNA-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+          <p>Our facilities</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="assets/Foxtail_Assets/austin-wilcox-lAueE1Zf9tY-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+          <p>Our process</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <img src="assets/Foxtail_Assets/brian-suman-vdbq-iiyvGY-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+            <p>Treats for all</p>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <img src="assets/Foxtail_Assets/worshae-EmC037LJKbc-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+            <p>Research Program</p> 
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <img src="assets/Foxtail_Assets/taha-waHjNSAgvqc-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+            <p>Our Farmers</p>
+          </div>
+          <div class="row">
+         
+            </div>
+
+            <br>
+        
+
+         
+
+
+      <div class="content-container content">
+        <h3 class="content-header">Our Products</h3>
+        <h4 class="content-subhead">*ALL PRODUCTS ARE FDA & F&BA APPROVED*</h4>
+        <div class="container" class="collapse" id="collapseGrid">
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <img src="assets/Foxtail_Assets/american-heritage-chocolate-e0cEh3LURnI-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+              <p>International </p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <img src="assets/Foxtail_Assets/sarah-elizabeth-XEwsH1VUHTg-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+              <p>American</p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <img src="assets/Foxtail_Assets/sentidos-humanos-t_SlQb7j1nE-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+              <p>Local</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <img src="assets/Foxtail_Assets/chino-rocha-CyD4uSjuGtE-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+                <p>Live Stock</p>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="assets/Foxtail_Assets/pascal-meier-u9LD7HIftLk-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+                <p>Fruit</p> 
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="assets/Foxtail_Assets/rachel-mcdermott-DY8QdRIbpsg-unsplash.jpg" alt="" class="w-100 mt-4 mb-4">
+                <p>Farmers Specials</p>
+              </div>
+              <div class="row">
+             
+                </div>
+                <br>
+
+                <div id="carouselExampleSlidesOnly" class="carousel-slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Foxtail_Assets/alex-gorin-H6xnFF96g1E-unsplash.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Foxtail_Assets/yusuf-yassir-MMuOz3UNKeo-unsplash.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Foxtail_Assets/jan-huber-sOSZl7IuX-I-unsplash.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+    
+                <br>
+
+              </main>
+     
+      </div> <div class="content-container content">
+        <h3 class="content-header">HOW TO FIND FOXTAIL</h3>
+        <h4 class="content-subhead">Our products can be found on the farm and throughout Florida at local markets and grocery stores.</h4>
+        <form>
+          <label for="firstname"> City:</label>
+          <input type="text" name="firstname" id="firstname" placeholder="City name.." required>
+          <label for="lastname"> Product:</label>
+          <input type="text" 
+          name="lastname" id="lastname" placeholder="Product name.." required>
+          <label for="email"> Email:</label>
+          <input type="email" 
+          name="email" id="email" placeholder="email.." required>
+  
+          <input type="submit" value="Submit">
+        </form>
+        
+
+      </div> 
+   
+      </div>
+   
+    <div class="footer-hat"></div>
+    <footer>
+      <div id="footerinfo" class="footer-left">
+        <h4>CONTACT</h4>
+      
+          <br>
+          <br>
+          <br>
+          <li>Information</li>
+          <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Booking</li>
+          </ul>
+        </ul>
+      </div>
+      <div id="footerinfo2" class="footer-left">
+        <h4>PRODUCTS & SERVICES</h4>
+      
+          <br>
+          <br>
+          <li>Careers</li>
+          <ul>
+            <li>About</li>
+            <li>Process</li>
+            <li>FDA Regulation</li>
+          </ul>
+        </ul>
+      </div>
+      
+      <div class="footer-right">
+        <h4>FOXTAIL FARMS PROMISE</h4>
+        <h6>Without any sneaky tricks.</h6>
+        <br>
+        <p>At Foxtail Farms our mission is to nourish families in our community whether it is around their kitchen table, at the school cafeteria or at community food banks or pantries. Everyone deserves to have the best nutrition accessible to them, and we are committed to donate our products for consumers in need or when times are tough.
+
+          We donate multiple loads per year to food banks and always look to work with our government programs for school lunches and WIC programs to close the gap in nutrition. We recognize our communities have been in extra need this year and have ramped up our efforts to support food deprived families and essential workers affected by the Covid pandemic.</p>
+      </div>
+
+
+    </footer>
+    <div class="footer-feet">
+      <p>Marc urbealis- 2022</p>
+      <a href="https://github.com/nicholasparryfirst/nicholasparryfirst.github.io"><p>MBP Educational Network on GitHub</p></a>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
