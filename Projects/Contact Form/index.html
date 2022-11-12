@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>ContactForm</title>
+ 
+</head>
+<body>
+  
+<!-- Contract us header -->
+<div id="header">
+  <h1>Contact us</h1>
+  <p>Got a question? We'd love to hear from you. <br>
+  Send us a message and well respond as soon as possible</p>
+</div>
+<fieldset>
+<!-- Form -->
+<div id="content">
+  <form action="https://getform.io/f/ae00eb89-8c5c-4a97-912b-ccd1a9eefa8c" method="POST">
+<br>
+<label for="help">What Can we help you with?</label>
+<br>
+<select name="help" required>
+<option name="selction" value="" disabled selected>Select what we can help you with</option>
+<option name="customer" value="Admissions">Admissions</option>
+<option name="customer" value="Support">Support</option>
+<option name="customer" value="Impressions">Impressions</option>
+<option name="customer" value="tickets">tickets</option>
+<option name="customer" value="Returns">Returns</option>
+<option name="customer" value="Orders">Orders</option>
+</select>
+<br>
+<label for="Name">Name</label>
+<br>
+<input type="text" name="name" id="fullname" required minlength="1" maxlength="30">
+<br>
+<label for="name">Email</label>
+<br>
+<input type="text" name="email" id="eaddress" required minlength="1" maxlength="30">
+<br>
+
+<label for="name">Message</label>
+<br>
+<textarea name="messagearea" cols="50" rows="10" id="writeamessage" required minlength="1" maxlength="300" placeholder="Type Message Here"></textarea>
+<br>
+<button value="submit">Send</button>
+
+
+</form>
+  
+</div>
+      
+</fieldset>
+
+ 
+
+</body>
+</html>
