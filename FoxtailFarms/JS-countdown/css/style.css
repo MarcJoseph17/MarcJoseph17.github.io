@@ -1,0 +1,15 @@
+h1{
+    color:orangered; background-color: bisque; font-size: xx-large;
+}
+p{
+    color: brown; text-align: center;
+}
+
+#container1{background-color: lawngreen; border: black dotted; padding: 10px;
+
+}
+
+#container2 { background-color: blueviolet; height: 200px ; border: black; 
+    margin: 20px;
+}
+   
