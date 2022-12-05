@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <title>JS CALCULATOR</title>
+  </head>
+  <body>
+    <!-- 
+        Sometimes we gotta start small and remake the wheel.
+        A calculator is a monumental piece of tech but we can make 
+        a simple version to deconstruct some concepts.
+     -->
+    <div class="calc">
+      <div class="col_left">
+        <div class="calculator_wrapper result">
+          <h2>The Result:</h2>
+          <!-- Enter an element with a unique ID to display our result -->
+          <p id="answer">0</p>
+        </div>
+      </div>
+        <div class="col_right">
+          <section class="calculator_wrapper">
+            <h1>THE WORLD'S WORST CALCULATOR</h1>
+
+            <h4>Pick a calculation:</h4>
+
+            <div class="button_wrapper">
+              <!-- Here, write at least three buttons 
+                with onclick attributes triggering our functions: -->
+              <button onclick="addTwoPlusTwo(2,2)"> add </button>
+              <button onclick="minusThreePlusTwo(3,2)"> subtract </button>
+              <button onclick="divideFourPlusTwo(4,2)"> divide</button>
+              <button onclick="multiplyFourPlusTwo(5,2)"> multiply </button>
+              
+
+              <!-- 2 . . . -->
+              <!-- 3 . . . -->
+            </div>
+          </section>
+
+          <section class="calculator_wrapper second_worst_calculator">
+            <h1> Calculator </h1>  
+          <div class= "formstyle">  
+  <form name = "form1">  
+      
+    
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+  <!-- Display the calculator button on the screen. -->  
+
+  <!-- onclick() function display the number prsses by the user. -->  
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+    <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+    <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br>   
+  <!-- Display the Cancel button and erase all data entered by the user. -->  
+  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br>   
+    
+</form>  
+              </div>
+          </section>
+        </div>
+    </div>
+    
+    <!-- Link JS file here. -->
+    <script src="js/calc.js">
+
+    </script>
+  </body>
+</html>
+

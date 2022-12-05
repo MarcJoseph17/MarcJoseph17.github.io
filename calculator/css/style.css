@@ -1,0 +1,123 @@
+/* EDIT AT YOUR OWN RISK */
+body {
+  margin:0; 
+  background-color: rgb(0, 1, 1);
+  font-family: 'Courier New', Courier, monospace;
+
+  
+}
+.calc {
+  display:flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.col_left {
+  flex:1;
+  margin-right:30px;
+}
+
+.col_right {
+  flex:2;
+}
+.button_wraper {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+button,input[type=text] {
+  background-color: white;
+  border: 3px solid rgb(0, 255, 221);
+  border-radius: 5px;
+  color: darkblue;
+  font-weight: bold;
+  padding:5px;
+}
+
+.calculator_wrapper {
+  /* width: 100%; */
+  margin: 50px auto;
+  text-align: center;
+  border: 2px solid rgb(0, 255, 221);
+  padding: 30px 15px;
+}
+
+.result p {
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(0, 255, 221);
+}
+
+.second_worst_calculator input {
+  margin-bottom: 15px;
+  width: 20%;
+  text-align: center;
+}
+
+.second_worst_calculator label {
+  font-style: italic;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+p 
+{
+  color: aliceblue;
+}
+
+div {
+  color: aliceblue;
+}
+input[type=number], button { display:inline-block; margin-bottom: 4px;
+
+  h1 {  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+  
+#clear{  
+width: 270px;  
+border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: red;  
+}  
+  
+.formstyle  
+{  
+width: 300px;  
+height: 530px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 20px;  
+}  
+  
+  
+  
+input  
+{  
+width: 20px;  
+background-color: green;  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;  
+}  
+  
+  
+#calc{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}  
+  
