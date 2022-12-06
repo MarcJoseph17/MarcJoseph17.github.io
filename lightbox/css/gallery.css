@@ -9,6 +9,7 @@
   width: 800px;
   max-width: 100%;
   margin: 0 auto;
+  align-items: center;
 }
 
 /*
@@ -20,7 +21,7 @@
 */
 #gallery img {
   height: 200px;
-  margin: 12px;
+  margin: 30px;
   flex: 1 0 auto;
   object-fit: cover;
   opacity: 0.8;
