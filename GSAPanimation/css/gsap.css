@@ -1,13 +1,13 @@
 body {
     background-color: rgb(5, 5, 5);
-    color: rgb(240, 34, 34);
+    color: rgb(255, 255, 255);
     font-family:monospace;
     
 }
 h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:xx-large;
-    color: aliceblue;
+    color: rgb(72, 231, 255);
 }
 
 .animation-container {
@@ -29,7 +29,7 @@ h2 {
 .chuck {
     height: 100px;
     width: 100px;
-    background-color: rgb(249, 5, 5);
+    background-color: rgb(90, 219, 255);
     margin-top: 70px;
     margin-right: 40px;
     border-radius: 5%;
@@ -43,6 +43,7 @@ h2 {
     justify-content: center;
 }
 p {
-    font-size: 60px;
+    font-size: 50px;
 
 }
+
