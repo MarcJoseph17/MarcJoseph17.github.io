@@ -1,0 +1,56 @@
+   /* -- Basic CSS to sive the logo -- */
+   .animation_wrapper {
+    width:80%;
+    max-width: 600px;
+    margin:auto;
+    
+}
+
+    #gear {
+        animation: fadeIn ease 10s;
+       
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+      }
+}
