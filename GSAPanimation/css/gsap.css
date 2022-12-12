@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 34, 34);
+    font-family:monospace;
+    
+}
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color: aliceblue;
+}
+
+.animation-container {
+    width: 85%;
+    display: flex;
+    margin: 10% auto;
+}
+
+.chucked {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-right: 50px;
+    border-radius: 5%;
+
+}
+
+.chuck {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(249, 5, 5);
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5%;
+}
+
+.column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-size: 60px;
+
+}
