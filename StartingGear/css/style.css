@@ -7,7 +7,7 @@
 }
 
     #gear {
-        animation: fadeIn ease 10s;
+        animation: fadeIn ease 15s;
        
       }
       @keyframes fadeIn {
