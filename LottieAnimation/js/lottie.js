@@ -1,8 +1,9 @@
-
+//grab them
 let animationMonster = document.getElementById("animationMonster");
 let animationToggle = document.getElementById("animationToggle");
 let toggle_c = 0;
-
+//Montser emotes with evenlistemer
+//excited frames
 let monster =
     bodymovin.loadAnimation({
           container: animationMonster,
@@ -12,6 +13,7 @@ let monster =
           path: "https://lottie.host/4000f099-9e55-4048-848d-4e40a9fdf16e/q7EsA2gz9b.json"
         });
         
+        // event listener
         animationMonster.addEventListener('click', function() {
             monster.playSegments([110,210],true);
             
@@ -24,7 +26,7 @@ let monster =
         animationMonster.addEventListener('mouseenter', function() {
             monster.playSegments([256,302 ],true);
         });
-
+// toggle to one side
 
         let toggle = 
             bodymovin.loadAnimation({

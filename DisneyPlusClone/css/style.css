@@ -1,336 +1,346 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    width: 100%;
-    background: #0c111b;
-    position: relative;
-    font-family: roboto, sans-serif;
+* {
+  margin:0;
+  padding:0;
+ }
+body {
+  background-color: #040714;
+  color: #f9f9f9;
+  font-family: Avenir-Roman, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar{
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 4%;
-    background: #0c111b;
-    z-index: 9;
-    display: flex;
-    align-items: center;
+a {
+  color: #f9f9f9;
+  text-decoration: none;
 }
 
-.brand-logo{
-    height: 70px;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #090b13;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+  letter-spacing: 16px;
+  z-index: 3;
 }
 
-.nav-links{
-    margin-top: 10px;
-    display: flex;
-    list-style:none;
+.navLogo {
+  padding: 0;
+  width: 80px;
+  margin-top: 4px;
+  max-height: 70px;
+  font-size: 0;
+  display: inline-block;
 }
 
-.nav-items a{
-    text-decoration: none;
-    margin-left: 20px;
-    text-transform: capitalize;
-    color: #fff;
-    opacity: 0.9;
+.navLogo img {
+  display: block;
+  width: 100%;
 }
 
-.right-container{
-    display: block;
-    margin-left: auto;
+.login {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border: 1px solid #f9f9f9;
+  border-radius: 4px;
+  transition: all .2s ease 0s;
 }
 
-.search-box{
-    border: none;
-    border-bottom: 1px solid #aaa;
-    background: transparent;
-    outline: none;
-    height: 30px;
-    color:#fff;
-    width: 250px;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
-    transition: .5s;
+.login:hover {
+  background-color: #f9f9f9;
+  color: #000;
+  border-color: transparent;
 }
 
-.search-box:focus{
-    width: 400px;
-    border-color: #1f80e0;
+.landing {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
 }
 
-.sub-btn{
-    background: #1f80e0;
-    height: 30px;
-    padding: 0 20px;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
-    margin: 0 10px;
+.landingContent {
+  margin-bottom: 10vw;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 40px;
+  height: 100%;
 }
 
-.login-link{
-    color: #fff;
-    opacity: 0.9;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 700;
-    text-decoration: none;
-}
-.carousel-container{
-    position: relative;
-    width: 100%;
-    height: 450px;
-    padding: 20px 0;
-    overflow-x: hidden;
-    margin-top: 80px;
+.landingBgImg {
+  height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/background.jpeg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
 
-.carousel{
-    display: flex;
-    width: 92%;
-    height: 100%;
-    position: relative;
-    margin: auto;
+.first {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.slider{
-    flex: 0 0 auto;
-    margin-right: 30px;
-    position: relative;
-    background: rgba(0, 0, 0,0.5);
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    transition: 1s;
-    overflow: hidden;
+
+
+.email {
+  font-weight: lighter ;
+  color: #e2e2e2;
+  background-color: #7a7a7a;
+  margin-bottom: 12px;
+  width: 100%;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding: 16.5px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
-.slider img{
-    width: 70%;
-    min-height: 100%;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
+.disneybundle {
+  font-weight: bold;
+  color: #f9f9f9;
+  background-color: #0063e5;
+  margin-bottom: 12px;
+  width: 100%;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding: 16.5px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
-.slide-content{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    z-index: 2;
-    background: linear-gradient(to right, #030b17 80%, #0c111b00);
-    color: #fff;
+.landingSignUp:hover {
+  background-color: #0483ee;
 }
 
-.movie-title{
-    padding-left: 50px;
-    text-transform: capitalize;
-    margin-top: 80px;
+.landingDescription {
+  color: hsla(0, 0%, 95.3%, 1);
+  font-size: 11px;
+  margin: 0 0 24px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
 }
 
-.movie-des{
-    width: 80%;
-    line-height: 30px;
-    padding-left: 50px;
-    margin-top: 30px;
-    opacity: 0.8;
-}
-.video-card-container{
-    position: relative;
-    width: 92%;
-    margin: auto;
-    height: 10vw;
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-between;
+.ctaLogoTwo {
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
 }
 
-.video-card{
-    position: relative;
-    min-width: calc(100%/5 - 10px);
-    width: calc(100%/5 - 10px);
-    height: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    background: #030b17;
+.gallery{
+  display: flex;
+  flex-flow: wrap;
+  columns: 2;
+ }
+ 
+ .title{
+  color: #fff;
+  opacity: 0.9;
+  padding-left: 4%;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
 }
 
-.video-card-image,
-.card-video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.card-video{
-    position: absolute;
-}
 
-.video-card:hover .video-card-image{
-    display: none;
-}
-.title{
-    color: #fff;
-    opacity: 0.9;
-    padding-left: 4%;
-    text-transform: capitalize;
-    font-size: 22px;
-    font-weight: 500;
-}
+
 
 .movies-list{
-    width: 100%;
-    height: 220px;
-    position: relative;
-    margin: 10px 0 20px;
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin: 10px 0 20px;
 }
 
 .card-container{
-    position: relative;
-    width: 92%;
-    padding-left: 10px;
-    height: 220px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    overflow-x: auto;
-    overflow-y: visible;
-    scroll-behavior: smooth;
+  position: relative;
+  width: 92%;
+  padding-left: 10px;
+  height: 220px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-behavior: smooth;
 }
 
 .card-container::-webkit-scrollbar{
-    display: none;
+  display: none;
 }
 
 .card{
-    position: relative;
-    min-width: 150px;
-    width: 150px;
-    height: 200px;
-    border-radius: 5px;
-    overflow: hidden;
-    margin-right: 10px;
-    transition: .5s;
+  position: relative;
+  min-width: 150px;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+  transition: .5s;
 }
 
 .card-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card:hover .card-body{
-    opacity: 1;
+  opacity: 1;
 }
 
 .card-body{
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
-    padding: 10px;
-    transition: 0.5s;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
 }
 
+
+
+
+
+
+
+
+
 .name{
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-top: 60%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 60%;
 }
 
 .des{
-    color: #fff;
-    opacity: 0.8;
-    margin: 5px 0;
-    font-weight: 500;
-    font-size: 12px;
+  color: #fff;
+  opacity: 0.8;
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .watchlist-btn{
-    position: relative;
-    width: 100%;
-    text-transform: capitalize;
-    background: none;
-    border: none;
-    font-weight: 500;
-    text-align: right;
-    color: rgba(255, 255, 255, 0.5);
-    margin: 5px 0;
-    cursor: pointer;
-    padding: 10px 5px;
-    border-radius: 5px;
+  position: relative;
+  width: 100%;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  font-weight: 500;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 5px;
 }
 
 .watchlist-btn::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -5px;
-    height: 35px;
-    width: 35px;
-    background-image: url(images/add.png);
-    background-size: cover;
-    transform: scale(0.4);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 35px;
+  width: 35px;
+  background-image: url(images/add.png);
+  background-size: cover;
+  transform: scale(0.4);
 }
 
 .watchlist-btn:hover{
-    color: #fff;
-    background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .pre-btn,
 .nxt-btn{
-    position: absolute;
-    top: 0;
-    width: 5%;
-    height: 100%;
-    z-index: 2;
-    border: none;
-    cursor: pointer;
-    outline: none;
+  position: absolute;
+  top: 0;
+  width: 5%;
+  height: 100%;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .pre-btn{
-    left: 0;
-    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+  left: 0;
+  background: linear-gradient(to right, #0c111b 0%, #0c111b00);
 }
 
 .nxt-btn{
-    right: 0;
-    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+  right: 0;
+  background: linear-gradient(to left, #0c111b 0%, #0c111b00);
 }
 
 .pre-btn img,
 .nxt-btn img{
-    width: 15px;
-    height: 20px;
-    opacity: 0;
+  width: 15px;
+  height: 20px;
+  opacity: 0;
 }
 
 .pre-btn:hover img,
 .nxt-btn:hover img{
-    opacity: 1;
+  opacity: 1;
 }
+
+
+ 
+
+#plans {
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+      font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+      font-size: 14px;
+  }
+}
+  
