@@ -48,7 +48,7 @@ nav {
   width: 100%;
 }
 
-.login {
+.loginform {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 8px 16px;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ nav {
   transition: all .2s ease 0s;
 }
 
-.login:hover {
+.loginform:hover {
   background-color: #f9f9f9;
   color: #000;
   border-color: transparent;
@@ -276,7 +276,7 @@ nav {
   left: -5px;
   height: 35px;
   width: 35px;
-  background-image: url(images/add.png);
+  background-image: url();
   background-size: cover;
   transform: scale(0.4);
 }
