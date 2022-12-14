@@ -230,18 +230,33 @@ nav {
   
 }
 
+footer {
 
-
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  
+}
+.footer-left {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
 footer ul li a{
   opacity: 75%;
   text-decoration: none;
+  align-items:flex-end;
+
 }
 
 footer ul li a:hover{
   opacity: 1;
 }
 
-
+.footerlogo {
+  margin-bottom: 150px;;
+  padding-right:50px ;
+}
 
 
 
