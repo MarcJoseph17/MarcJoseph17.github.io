@@ -1,4 +1,4 @@
-function openCity(cityName) {
+function openMovie(movieName) {
     var i;
     var x = document.getElementsByClassName("city");
     for (i = 0; i < x.length; i++) {
