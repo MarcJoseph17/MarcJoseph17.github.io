@@ -232,7 +232,14 @@ nav {
 
 
 
+footer ul li a{
+  opacity: 75%;
+  text-decoration: none;
+}
 
+footer ul li a:hover{
+  opacity: 1;
+}
 
 
 
